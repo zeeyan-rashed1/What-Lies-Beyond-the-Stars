@@ -1,0 +1,27 @@
+GITHUB UPLOAD CHECKLIST
+
+Upload the contents of this folder into the ROOT of:
+https://github.com/zeeyan-rashed1/What-Lies-Beyond-the-Stars
+
+Required:
+- index.html
+- README.md
+- chapters.json
+- favicon.svg
+- .nojekyll
+- assets/cover.jpg
+- assets/what-lies-beyond-the-stars-volume-one.pdf
+
+IMPORTANT:
+- Keep the assets folder and both files inside it together.
+- Do not rename index.html.
+- The repository already contains .github/workflows/static.yml; KEEP IT.
+- The repository's older index.html.html can be removed after the new index.html is uploaded.
+- Old root copies of cover.jpg and the PDF are duplicates; the new site reads from assets/.
+
+After committing to main:
+Settings > Pages > Build and deployment > GitHub Actions.
+Then open Actions and verify the latest Pages run is successful.
+
+Expected website:
+https://zeeyan-rashed1.github.io/What-Lies-Beyond-the-Stars/
