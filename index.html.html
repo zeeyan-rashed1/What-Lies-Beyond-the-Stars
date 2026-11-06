@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111d34">
+<meta name="description" content="Read What Lies Beyond the Stars — Volume One by the QORA Editorial Circle. Explore the Qur’an, cosmology, and the search for the edge of reality.">
+<meta property="og:type" content="book">
+<meta property="og:title" content="What Lies Beyond the Stars — QORA">
+<meta property="og:description" content="The Qur’an, the Big Bang, and the Search for the Edge of Reality. Read online.">
+<meta property="og:image" content="assets/cover.jpg">
+<title>What Lies Beyond the Stars — QORA Digital University</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#15213a;--navy:#101b31;--blue:#2458a6;--blue2:#3976d2;--gold:#c8ad70;--paper:#f5f3ed;--white:#fff;--muted:#687387;--line:#e6e2d8;--soft:#eeece5;--shadow:0 24px 70px #0d1a3017;--radius:18px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",system-ui,sans-serif;line-height:1.6}
+a{color:inherit}button,input{font:inherit}button{cursor:pointer}
+.site-header{height:72px;background:#101b31;color:white;display:flex;align-items:center;position:sticky;top:0;z-index:20;border-bottom:1px solid #c8ad7060}
+.header-inner{width:min(1240px,calc(100% - 40px));margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font-weight:700;letter-spacing:.34em;font-size:1.05rem}.brand small{display:block;color:#d7c69a;font-size:.55rem;letter-spacing:.19em;font-weight:400;margin-top:1px}
+.nav{display:flex;align-items:center;gap:26px;font-size:.86rem;color:#d9dfeb}.nav a{text-decoration:none}.nav a:hover{color:white}
+.header-cta{background:#f2ead7;color:var(--navy);padding:9px 15px;border-radius:999px;font-weight:700;text-decoration:none;font-size:.83rem}
+main{overflow:hidden}.container{width:min(1160px,calc(100% - 40px));margin:auto}
+.hero{padding:74px 0 78px;position:relative;background:radial-gradient(ellipse at 78% 45%,#dce5f1 0%,transparent 34%),linear-gradient(180deg,#f8f7f2 0%,#f1efe8 100%);border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:.78fr 1.22fr;align-items:center;gap:clamp(38px,7vw,100px)}
+.cover-stage{position:relative;max-width:360px;margin:auto}
+.cover-stage:before{content:"";position:absolute;inset:9% -9% -7% 12%;border:1px solid #2458a64c;border-radius:50%;transform:rotate(-22deg)}
+.cover{position:relative;width:100%;display:block;aspect-ratio:2/3;object-fit:cover;box-shadow:0 32px 65px #14213b38;border-radius:3px}
+.kicker{font-size:.72rem;text-transform:uppercase;letter-spacing:.22em;color:#8a7446;font-weight:700}
+h1{font:500 clamp(2.7rem,5.6vw,5.2rem)/1.05 "Playfair Display",Georgia,serif;letter-spacing:-.035em;color:var(--navy);margin:18px 0 17px;max-width:760px}
+.subtitle{font:clamp(1.15rem,2vw,1.55rem)/1.45 "Playfair Display",Georgia,serif;color:#4e596b;max-width:640px}
+.meta{display:flex;flex-wrap:wrap;gap:10px 18px;margin:24px 0 29px;color:var(--muted);font-size:.86rem}
+.pill{border:1px solid #d9d4c8;border-radius:999px;padding:5px 10px;background:#ffffff80}
+.actions{display:flex;flex-wrap:wrap;gap:11px}
+.btn{border:1px solid var(--navy);border-radius:999px;padding:12px 20px;min-height:47px;display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;font-size:.9rem;font-weight:700;transition:.2s}
+.btn.primary{background:var(--navy);color:white}.btn.primary:hover{background:#21385f;transform:translateY(-2px)}
+.btn.secondary{color:var(--navy);background:transparent}.btn.secondary:hover{background:#eae7df}
+.trust-row{display:flex;flex-wrap:wrap;gap:18px;margin-top:28px;color:#687387;font-size:.78rem}.trust-row span:before{content:"✦";color:var(--blue);margin-right:7px}
+.section{padding:76px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}
+.eyebrow{font-size:.7rem;text-transform:uppercase;letter-spacing:.2em;color:#8a7446;font-weight:700}
+h2{font:500 clamp(2rem,3vw,2.8rem)/1.15 "Playfair Display",Georgia,serif;color:var(--navy);margin:8px 0 0}
+.lead{color:var(--muted);max-width:620px;margin:12px 0 0;font-size:.97rem}
+.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}
+.about-card,.method-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:0 10px 35px #14213b08}
+.about-card p{color:#596477;margin:0;font-size:1rem}
+.method-list{display:grid;gap:15px;margin-top:20px}.method-item{display:flex;gap:12px;align-items:flex-start}.dot{width:9px;height:9px;background:var(--blue);border-radius:50%;margin-top:8px;flex:none}.method-item b{display:block;color:var(--navy);font-size:.9rem}.method-item span{color:var(--muted);font-size:.84rem}
+.contents{background:#eeece5;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.chapter-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.chapter{width:100%;text-align:left;border:1px solid #dedbd2;background:#f9f8f4;border-radius:12px;padding:15px 17px;display:flex;align-items:center;gap:15px;transition:.18s}
+.chapter:hover{border-color:#8da7d0;background:white;transform:translateY(-1px)}
+.chapter .num{color:var(--blue);font-size:.7rem;font-weight:700;letter-spacing:.1em;min-width:74px}
+.chapter .name{font-size:.9rem;font-weight:600;color:var(--navy);line-height:1.35;flex:1}
+.chapter .page{font-size:.75rem;color:var(--muted);white-space:nowrap}
+.reader-section{padding:76px 0 90px}
+.reader-shell{border:1px solid #d8dbe1;border-radius:18px;overflow:hidden;background:#e6e8ed;box-shadow:var(--shadow)}
+.reader-top{background:var(--navy);color:white;padding:15px 18px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.reader-title{font-size:.88rem;font-weight:700}.reader-status{font-size:.75rem;color:#c5d0e2}
+.reader-controls{background:white;padding:12px 15px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.control-group{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.icon-btn,.text-btn{border:1px solid #dce0e7;background:#fff;color:var(--navy);border-radius:8px;min-height:36px;padding:6px 11px;font-size:.8rem;font-weight:700}
+.icon-btn{min-width:37px}.icon-btn:hover,.text-btn:hover{background:#f0f3f8}
+.page-count{font-size:.8rem;color:#536075;min-width:82px;text-align:center;font-variant-numeric:tabular-nums}
+.search-box{border:1px solid #dce0e7;border-radius:8px;display:flex;align-items:center;overflow:hidden;background:white}
+.search-box input{width:160px;border:0;outline:0;padding:8px 10px;font-size:.8rem}.search-box button{border:0;background:#eef2f8;color:var(--navy);padding:8px 10px;font-size:.8rem;font-weight:700}
+.reader-body{display:grid;grid-template-columns:220px 1fr;min-height:760px;max-height:1050px}
+.reader-side{background:#f7f8fa;border-right:1px solid #d9dde5;padding:17px 12px;overflow:auto}
+.side-label{font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:#8b94a3;font-weight:700;padding:0 7px 10px}
+.thumb-list{display:grid;gap:9px}.thumb{border:1px solid #dce0e7;background:white;border-radius:8px;padding:5px;display:flex;gap:8px;align-items:center;text-align:left;width:100%}
+.thumb.active{border:2px solid var(--blue);background:#edf3fc}.thumb canvas{width:42px;height:55px;object-fit:contain;background:#eee;box-shadow:0 2px 5px #0001}
+.thumb span{font-size:.72rem;color:#4e5a6c}.thumb b{display:block;color:var(--navy);font-size:.72rem}
+.page-stage{position:relative;overflow:auto;display:flex;justify-content:center;align-items:flex-start;padding:24px;background:#dfe2e8;min-width:0}
+#pageCanvas{display:block;background:white;box-shadow:0 8px 28px #101b3126;max-width:100%;height:auto}
+.loading{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#687387;font-size:.9rem}
+.progress-track{height:4px;background:#e6e9ee}.progress-fill{height:100%;width:0;background:linear-gradient(90deg,#2458a6,#6f9de2);transition:width .2s}
+.reader-bottom{background:white;padding:10px 16px;color:#7b8493;font-size:.75rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.reader-fallback{background:white;padding:24px;text-align:center;color:#596477}
+.details-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}
+.detail{background:white;border:1px solid var(--line);border-radius:13px;padding:20px}.detail b{display:block;color:var(--navy);margin-bottom:5px}.detail span{font-size:.85rem;color:var(--muted)}
+footer{background:#101b31;color:#cbd3df;padding:42px 20px;text-align:center;border-top:2px solid var(--gold)}
+.footer-brand{font-size:1.2rem;letter-spacing:.36em;color:white;font-weight:700}.footer-sub{font-size:.67rem;letter-spacing:.2em;color:#d2c195;margin-top:4px}.copyright{font-size:.78rem;color:#9eabc0;margin-top:18px}
+@media(max-width:850px){.hero-grid{grid-template-columns:.75fr 1.25fr;gap:35px}.reader-body{grid-template-columns:165px 1fr}.reader-side{padding:12px 8px}}
+@media(max-width:680px){.site-header{height:64px}.nav{display:none}.container,.header-inner{width:calc(100% - 30px)}.hero{padding:46px 0 52px}.hero-grid{grid-template-columns:1fr;gap:35px}.cover-stage{max-width:220px}.hero-copy{text-align:center}.subtitle{margin:auto}.meta,.actions,.trust-row{justify-content:center}.section{padding:55px 0}.about-grid,.chapter-grid{grid-template-columns:1fr}.section-head{display:block}.reader-section{padding:55px 0}.reader-body{grid-template-columns:1fr;min-height:600px;max-height:none}.reader-side{display:none}.page-stage{padding:12px;min-height:560px}.reader-controls{justify-content:center}.reader-controls .control-group{justify-content:center}.search-box input{width:125px}.details-grid{grid-template-columns:1fr}.reader-top{align-items:flex-start;flex-direction:column;gap:3px}}
+@media(max-width:390px){.control-group{gap:4px}.icon-btn,.text-btn{padding:5px 8px}.page-count{min-width:65px}.reader-body{min-height:500px}.page-stage{min-height:480px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="header-inner">
+  <a href="#" style="text-decoration:none;color:white"><div class="brand">QORA<small>DIGITAL UNIVERSITY</small></div></a>
+  <nav class="nav"><a href="#about">About</a><a href="#contents">Contents</a><a href="#reader">Read online</a></nav>
+  <a class="header-cta" href="#reader">Open the book ↗</a>
+</div></header>
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div class="cover-stage"><img class="cover" src="assets/cover.jpg" alt="High-resolution cover of What Lies Beyond the Stars, Volume One"></div>
+  <div class="hero-copy">
+    <div class="kicker">A QORA Research Volume · First Edition · 2026</div>
+    <h1>What Lies Beyond the Stars</h1>
+    <div class="subtitle">The Qur’an, the Big Bang, and the Search for the Edge of Reality</div>
+    <div class="meta"><span class="pill">Volume One</span><span class="pill">42 pages</span><span class="pill">English</span><span>By The QORA Editorial Circle</span></div>
+    <div class="actions"><a class="btn primary" href="#reader">Start reading <span>→</span></a><a class="btn secondary" href="assets/what-lies-beyond-the-stars-volume-one.pdf" download>Download PDF ↓</a></div>
+    <div class="trust-row"><span>Complete volume</span><span>Mobile-friendly reader</span><span>Free access</span></div>
+  </div>
+</div></section>
+
+<section class="section" id="about"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">About the publication</div><h2>A meeting of revelation, reason and observation.</h2></div></div>
+  <div class="about-grid">
+    <article class="about-card"><p>This volume explores selected Qur’anic themes alongside ideas from modern cosmology and physics. It moves carefully between source text, interpretation, scientific context and clearly identified hypotheses. Its purpose is not to force a scientific conclusion from scripture, but to invite disciplined questions and thoughtful reading.</p></article>
+    <aside class="method-card"><div class="eyebrow">The book’s method</div><div class="method-list">
+      <div class="method-item"><i class="dot"></i><div><b>Evidence</b><span>Text, hadith and scientific findings that can be checked.</span></div></div>
+      <div class="method-item"><i class="dot"></i><div><b>Interpretation</b><span>Reasoned readings, with room for disagreement.</span></div></div>
+      <div class="method-item"><i class="dot"></i><div><b>Hypothesis</b><span>Proposals clearly distinguished from established evidence.</span></div></div>
+    </div></aside>
+  </div>
+</div></section>
+
+<section class="section contents" id="contents"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">Explore the volume</div><h2>Inside this book</h2><p class="lead">Choose a section to open the reader at its starting page.</p></div></div>
+  <div class="chapter-grid" id="chapterGrid"></div>
+</div></section>
+
+<section class="reader-section" id="reader"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">The complete publication</div><h2>Read the book online</h2><p class="lead">Navigate pages, search the text, zoom in for comfortable reading, and return to your last position on this device.</p></div></div>
+  <div class="reader-shell">
+    <div class="reader-top"><div class="reader-title">WHAT LIES BEYOND THE STARS <span style="color:#c8ad70">/</span> VOLUME ONE</div><div class="reader-status" id="readerStatus">Preparing your reading experience…</div></div>
+    <div class="reader-controls">
+      <div class="control-group"><button class="icon-btn" id="prevPage" aria-label="Previous page">←</button><span class="page-count" id="pageCount">Page — / 42</span><button class="icon-btn" id="nextPage" aria-label="Next page">→</button></div>
+      <div class="control-group"><button class="icon-btn" id="zoomOut" aria-label="Zoom out">−</button><button class="text-btn" id="fitWidth">Fit width</button><button class="icon-btn" id="zoomIn" aria-label="Zoom in">+</button></div>
+      <div class="control-group"><form class="search-box" id="searchForm"><input id="searchInput" type="search" placeholder="Find in book…" aria-label="Search book text"><button type="submit">Find</button></form><button class="text-btn" id="downloadBtn">Download</button></div>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="reader-body">
+      <aside class="reader-side"><div class="side-label">Pages</div><div class="thumb-list" id="thumbList"></div></aside>
+      <div class="page-stage" id="pageStage"><div class="loading" id="loading">Loading book…</div><canvas id="pageCanvas" aria-label="Current book page"></canvas></div>
+    </div>
+    <div class="reader-bottom"><span id="readerHint">Your reading position is saved on this device.</span><span>QORA · Digital University</span></div>
+    <div class="reader-fallback" id="fallback" hidden>Interactive reading requires a modern browser and an internet connection for the PDF reader library. <a href="assets/what-lies-beyond-the-stars-volume-one.pdf">Open or download the PDF directly</a>.</div>
+  </div>
+  <div class="details-grid">
+    <div class="detail"><b>Thoughtful navigation</b><span>Chapter shortcuts, page controls and reading progress.</span></div>
+    <div class="detail"><b>Comfortable reading</b><span>Fit-to-width and zoom controls for smaller screens and larger displays.</span></div>
+    <div class="detail"><b>Searchable text</b><span>Find words and phrases in the PDF’s selectable text layer.</span></div>
+  </div>
+</div></section>
+</main>
+<footer><div class="footer-brand">QORA</div><div class="footer-sub">DIGITAL UNIVERSITY FOR QUR’ANIC &amp; MODERN SCIENTIFIC STUDIES</div><div class="copyright">© 2026 QORA Editorial Circle. All rights reserved.</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+const PDF_URL='assets/what-lies-beyond-the-stars-volume-one.pdf';
+const chapters=[{"title": "Preface", "page": 7, "tag": "Opening"}, {"title": "Introduction — Three Lamps in One Room", "page": 8, "tag": "Introduction"}, {"title": "Al-Ghayb: The Architecture of the Unseen", "page": 10, "tag": "Chapter 01"}, {"title": "Ratq and Fatq: The Birth of the Sky", "page": 13, "tag": "Chapter 02"}, {"title": "Falak: Orbits, Order, and the Elasticity of Time", "page": 16, "tag": "Chapter 03"}, {"title": "Nūr: Light as Physics and Light as Parable", "page": 19, "tag": "Chapter 04"}, {"title": "Isra and Mi’raj: A Night Journey Beyond Ordinary Space", "page": 22, "tag": "Chapter 05"}, {"title": "Barzakh: The Isthmus Between Two Realities", "page": 25, "tag": "Chapter 06"}, {"title": "Sidrat al-Muntaha and the Edge of the Knowable", "page": 28, "tag": "Chapter 07"}, {"title": "Beyond the Horizon: The Hidden Architecture of Reality", "page": 31, "tag": "Chapter 08"}, {"title": "Conclusion: What This Journey Has and Has Not Shown", "page": 36, "tag": "Conclusion"}, {"title": "Preview of Volume Two", "page": 36, "tag": "Next volume"}, {"title": "Glossary", "page": 38, "tag": "Reference"}, {"title": "References and Further Reading", "page": 40, "tag": "Reference"}, {"title": "A Letter to the Reader", "page": 41, "tag": "Closing"}];
+const grid=document.getElementById('chapterGrid');
+chapters.forEach((ch,i)=>{const b=document.createElement('button');b.className='chapter';b.innerHTML=`<span class="num">${ch.tag}</span><span class="name">${ch.title}</span><span class="page">p. ${ch.page} ↗</span>`;b.addEventListener('click',()=>{goTo(ch.page);document.getElementById('reader').scrollIntoView({behavior:'smooth'});});grid.appendChild(b);});
+const $=id=>document.getElementById(id);
+const canvas=$('pageCanvas'),ctx=canvas.getContext('2d');
+let pdfDoc=null,pageNum=1,scale=1,renderTask=null,thumbsBuilt=false,searchIndex=[],lastSearch='',searchPos=-1;
+const saved=Number(localStorage.getItem('qora-book-page')||1);
+if(window.pdfjsLib){
+  pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+  pdfjsLib.getDocument(PDF_URL).promise.then(async doc=>{
+    pdfDoc=doc;$('readerStatus').textContent=`${doc.numPages} pages · Ready to read`;
+    $('pageCount').textContent=`Page ${pageNum} / ${doc.numPages}`;
+    $('loading').hidden=true;
+    await renderPage(Math.min(Math.max(saved,1),doc.numPages));
+    buildThumbs();
+    $('readerHint').textContent='Reading progress is saved locally on this device.';
+  }).catch(err=>{console.error(err);$('loading').hidden=true;$('fallback').hidden=false;$('readerStatus').textContent='Direct PDF access available';});
+}else{$('loading').hidden=true;$('fallback').hidden=false;$('readerStatus').textContent='Direct PDF access available';}
+async function renderPage(n){
+  if(!pdfDoc)return;pageNum=Math.max(1,Math.min(n,pdfDoc.numPages));
+  localStorage.setItem('qora-book-page',String(pageNum));
+  $('pageCount').textContent=`Page ${pageNum} / ${pdfDoc.numPages}`;
+  $('progressFill').style.width=(pageNum/pdfDoc.numPages*100)+'%';
+  $('prevPage').disabled=pageNum<=1;$('nextPage').disabled=pageNum>=pdfDoc.numPages;
+  document.querySelectorAll('.thumb').forEach(t=>t.classList.toggle('active',Number(t.dataset.page)===pageNum));
+  const page=await pdfDoc.getPage(pageNum);
+  const base=page.getViewport({scale:1});
+  const stage=$('pageStage');
+  const available=Math.max(240,stage.clientWidth-38);
+  const fit=available/base.width;
+  const viewport=page.getViewport({scale:Math.max(.45,Math.min(3.2,fit*scale))});
+  canvas.width=Math.floor(viewport.width*devicePixelRatio);
+  canvas.height=Math.floor(viewport.height*devicePixelRatio);
+  canvas.style.width=Math.floor(viewport.width)+'px';
+  canvas.style.height=Math.floor(viewport.height)+'px';
+  const transform=devicePixelRatio!==1?[devicePixelRatio,0,0,devicePixelRatio,0,0]:null;
+  if(renderTask){try{renderTask.cancel();}catch(e){}}
+  renderTask=page.render({canvasContext:ctx,viewport,transform});
+  try{await renderTask.promise;}catch(e){if(e.name!=='RenderingCancelledException')console.error(e);}
+  $('loading').hidden=true;
+}
+function goTo(n){scale=1;renderPage(n);if(window.innerWidth<680)$('pageStage').scrollTop=0;}
+$('prevPage').onclick=()=>renderPage(pageNum-1);$('nextPage').onclick=()=>renderPage(pageNum+1);
+$('zoomIn').onclick=()=>{scale=Math.min(2.5,scale+.15);renderPage(pageNum)};
+$('zoomOut').onclick=()=>{scale=Math.max(.65,scale-.15);renderPage(pageNum)};
+$('fitWidth').onclick=()=>{scale=1;renderPage(pageNum)};
+$('downloadBtn').onclick=()=>{const a=document.createElement('a');a.href=PDF_URL;a.download='QORA-What-Lies-Beyond-the-Stars-Volume-One.pdf';a.click();};
+window.addEventListener('resize',()=>{if(pdfDoc)renderPage(pageNum)});
+function buildThumbs(){
+  if(thumbsBuilt)return;thumbsBuilt=true;
+  const list=$('thumbList');
+  for(let i=1;i<=pdfDoc.numPages;i++){
+    const b=document.createElement('button');b.className='thumb';b.dataset.page=i;
+    b.innerHTML=`<canvas width="84" height="110"></canvas><span><b>Page ${i}</b>${i===1?'Cover':'Open page'}</span>`;
+    b.onclick=()=>goTo(i);list.appendChild(b);
+    if(i<=8||[10,13,16,19,22,25,28,31,36,38,40,41].includes(i)){
+      pdfDoc.getPage(i).then(p=>{const v=p.getViewport({scale:.13});const c=b.querySelector('canvas');c.width=v.width*2;c.height=v.height*2;p.render({canvasContext:c.getContext('2d'),viewport:p.getViewport({scale:.26})});});
+    }
+  }
+}
+async function ensureSearchIndex(){
+  if(searchIndex.length)return;
+  $('readerStatus').textContent='Indexing text for search…';
+  for(let i=1;i<=pdfDoc.numPages;i++){const p=await pdfDoc.getPage(i);const t=await p.getTextContent();searchIndex.push(t.items.map(x=>x.str).join(' '));}
+  $('readerStatus').textContent=`${pdfDoc.numPages} pages · Search ready`;
+}
+$('searchForm').addEventListener('submit',async e=>{
+  e.preventDefault();if(!pdfDoc)return;
+  const q=$('searchInput').value.trim().toLowerCase();if(!q)return;
+  await ensureSearchIndex();
+  if(q!==lastSearch){lastSearch=q;searchPos=-1;}
+  const hits=[];searchIndex.forEach((text,i)=>{if(text.toLowerCase().includes(q))hits.push(i+1);});
+  if(!hits.length){$('readerStatus').textContent='No matches found';return;}
+  searchPos=(searchPos+1)%hits.length;goTo(hits[searchPos]);
+  $('readerStatus').textContent=`Match ${searchPos+1} of ${hits.length} · Page ${hits[searchPos]}`;
+});
+document.addEventListener('keydown',e=>{
+  if(['INPUT','TEXTAREA'].includes(document.activeElement.tagName))return;
+  if(e.key==='ArrowLeft')renderPage(pageNum-1);if(e.key==='ArrowRight')renderPage(pageNum+1);
+});
+</script>
+</body></html>
